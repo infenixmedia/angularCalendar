@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800');
+@import url('font-awesome.min.css');
+
+/*----- global styles  -----*/
+* {box-sizing:border-box;}
+body, html {margin:0;padding:0;font-family:'Open Sans', sans-serif;text-align:center;}
+div {position:relative;margin:0;}
+p,ul {margin:0;} 
+a {text-decoration:none;}
+ul {padding:0;list-style-type:none;}
+
+/*----- styles for global elements -----*/
+.container {width:100%;text-align:center;float:left;}
+.container .row {margin:0 auto;max-width:500px;text-align:left;}
+
+/*----- styles for header elements -----*/
+.container .row .cTitle {padding:10px 0 10px 0;width:100%;float:left;}
+.container .row .cTitle ul {margin:0;padding:0;width:100%;text-align:center;float:left;list-style-type:none;}
+.container .row .cTitle ul li {display:inline-block;width:33.33%;min-height:20px;font-weight:bold;text-align:center;float:left;}
+.container .row .cTitle ul li:first-child {text-align:left;}
+.container .row .cTitle ul li:last-child {text-align:right;}
+.container .row .cTitle ul li i {font-size:18px;cursor:pointer;}
+.container .row .cLabels, .container .row .cDays {width:100%;float:left;}
+.container .row .cLabels {background:#ededed;}
+.container .row .cLabels ul, .container .row .cDays ul {width:100%;float:left;border-left:1px solid #ededed;}
+.container .row .cLabels ul li, .container .row .cDays ul li {padding:15px 0 15px 0;width:14.28%;text-align:center;float:left;border-right:1px solid #ededed;border-bottom:1px solid #ededed;}
+.container .row .cDays ul li.inactive {background:#ededed;opacity:0.30;}
